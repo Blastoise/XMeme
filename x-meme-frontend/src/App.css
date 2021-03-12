@@ -1,0 +1,38 @@
+.header-container {
+  color: #0275d8;
+  font-family: "Source Serif Pro", serif;
+  box-shadow: 0 8px 6px -6px black;
+  text-align: center;
+  border: 1px solid silver;
+}
+
+.meme-form {
+  margin-top: 50px;
+}
+
+.meme-form-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.meme-form-container {
+  border-radius: 5px;
+  border-top: 5px solid #0275d8;
+  border-bottom: 5px solid #0275d8;
+  box-shadow: 0 2px 4px 0 rgb(34 36 38 / 12%), 0 2px 10px 0 rgb(34 36 38 / 15%);
+  padding: 10px;
+}
+
+.btn {
+  width: 100%;
+}
+
+.posts-margin {
+  margin-top: 50px;
+}
+
+.required-field::after {
+  content: "*";
+  margin-left: 2px;
+  color: red;
+}
